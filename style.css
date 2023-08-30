@@ -1,0 +1,193 @@
+
+:root{
+  --texto-claro: rgb(255, 255, 255);
+  --fundo: url(./assets/bg-mobile.jpg);
+  --cara: url(./assets/avatar-light.png);
+  --linkborda:rgba(255, 255, 255, 0.5);
+  --spotfy:chartreuse;
+  --linkfundo2: rgba(168, 212, 238, 0.493);
+  --linkfundo: rgba(255, 255, 255, 0.1);
+  --icones: rgba(250, 250, 250, 0.2 );
+  --swich: white url(./assets/MoonStars.svg);
+}
+.light {
+--texto-claro: rgb(0, 0, 0);
+--fundo:url(./assets/bg-mobile-light.jpg);
+--cara :url(./assets/avatar-light.png)
+--linkborda : rgba(0, 0, 0, 0.3);
+--linkborda2: rgba(0, 0, 0, 0.5);
+--spotfy:rgb(64, 206, 76);
+--linkfundo:rgba(54, 53, 53, 0.24);
+--linkfundo2: rgba(15, 80, 117, 0.7);
+--icones: rgba(0,0,0 , 0.2 );
+--swich: rgb(133, 129, 129) url(./assets/Sun.svg);
+}
+
+body {
+  background: var(--fundo) no-repeat top center/cover;
+}
+#container {
+  width: 360px;
+  padding: 0 24px;
+  margin: auto;
+}
+#profile {
+  text-align: center;
+  border: px solid rgb(99, 118, 224);
+}
+
+#profile img {
+  width: 112px;
+}
+
+body * {
+  font-family: "Deep",  normal
+;
+  color: var(--texto-claro);
+}
+#profile p {
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+#butao {
+  position: relative;
+  
+  width: 64px;
+  margin: 4px auto;
+
+
+
+}
+
+#butao button {
+  width: 32px;
+  height: 32px;
+  background: var(--swich) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+#butao span{
+  display: block;
+width: 64px;
+height: 24px;
+background: var(--linkfundo);
+border: 1px var(--linkborda);
+backdrop-filter: blur(4px);
+border-radius: 9999px;
+
+}
+
+.light #butao button {
+right: 0px;
+left: initial
+
+
+}
+
+
+
+
+ #kolinolo {
+  font-family: "Deep" normal;
+  text-decoration: none;
+  font-weight: 250;
+  line-height: 20px;
+  margin-top: 8px;
+}
+/* icones */
+
+#icones { 
+  display: flex;
+  gap: 16px;
+  font-size: 24px;
+  justify-content: center;
+}
+
+#icones a{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition:background 0.2s;
+  border-radius: 50%;
+}
+
+#icones a:hover {
+background-color:var(--icones);
+padding: 16px;
+
+
+}
+#Feito {
+ padding: 24px;
+text-align: center;
+align-items: center;
+font-size: 14px;
+}
+#eqf {font-size: 12px;}
+
+
+
+
+
+
+/* links da lista */
+#Spotify {color:var(--texto-claro);}
+#Spotify:hover {color:var(--spotfy);}
+
+#Pudim {color:var(--texto-claro);}
+#Pudim:hover {color: rgb(253, 124, 2);}
+
+#rocketseat { color:var(--texto-claro);}
+#rocketseat:hover { color: rgb(7, 176, 228);}
+
+#café {color:var(--texto-claro); }
+#café:hover {color: rgb(250,0,0); }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 24px;
+  background: var(--linkfundo);
+  border: 1px solid var(--linkborda);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  font-size:  20px;
+  transition: all 0.2s;
+}
+ul li a:hover {
+  background: --linkfundo2;
+  border: 1px solid var(--linkborda2);
+  font-size: 25px;
+  font-weight: 600;
+  padding: auto;
+}
+@font-face {
+  font-family:Deep;
+  src: url("Deep Shadow.ttf") format ("tutype");
+}
+
+
