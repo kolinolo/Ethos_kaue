@@ -36,11 +36,12 @@ body {
 #profile {
   text-align: center;
   border: px solid rgb(99, 118, 224);
-
+ 
 }
 
 #profile img {
   width: 112px;
+ src:var(--cara)
 }
 
 body * {
