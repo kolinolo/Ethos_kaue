@@ -2,7 +2,6 @@
 :root{
   --texto-claro: rgb(255, 255, 255);
   --fundo: url(./assets/bg-mobile.jpg);
-  --cara: url(./assets/Avatar.png);
   --linkborda:rgba(255, 255, 255, 0.5);
   --spotfy:chartreuse;
   --linkfundo2: rgba(168, 212, 238, 0.493);
@@ -13,7 +12,6 @@
 .light {
 --texto-claro: rgb(0, 0, 0);
 --fundo:url(./assets/bg-mobile-light.jpg);
---cara :url(./assets/avatar-light.png)
 --linkborda : rgba(0, 0, 0, 0.3);
 --linkborda2: rgba(0, 0, 0, 0.5);
 --spotfy:rgb(64, 206, 76);
