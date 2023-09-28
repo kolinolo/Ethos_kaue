@@ -1,7 +1,7 @@
 
 :root{
   --texto-claro: rgb(255, 255, 255);
-  --fundo: url(https://media.tenor.com/LfUNoQhz0R0AAAAC/katana-zero-roof.gif);
+  --fundo: url(./assets/bg-mobile.jpg);
   --cara: url(./assets/Avatar.png);
   --linkborda:rgba(255, 255, 255, 0.5);
   --spotfy:chartreuse;
@@ -12,7 +12,7 @@
 }
 .light {
 --texto-claro: rgb(0, 0, 0);
---fundo:url(https://media.tenor.com/H5npGLqOgyMAAAAC/pixel-sunrise.gif);
+--fundo:url(./assets/bg-mobile-light.jpg);
 --cara :url(./assets/avatar-light.png)
 --linkborda : rgba(0, 0, 0, 0.3);
 --linkborda2: rgba(0, 0, 0, 0.5);
@@ -25,12 +25,12 @@
 
 body {
   background: var(--fundo) no-repeat top center/cover;
-  height: 100%vh;
+  
 }
 #container {
   width: 100%;
   max-width: 588px;
-  padding: 0 24px;
+  padding: 1 24px;
   margin: auto;
 }
 #profile {
@@ -172,6 +172,8 @@ ul {
   flex-direction: column;
   gap: 16px;
   padding: 11px 0;
+  
+  
 }
 
 ul li a {
